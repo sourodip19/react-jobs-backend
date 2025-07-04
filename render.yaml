@@ -6,3 +6,7 @@ services:
     startCommand: npm start
     env: node
     port: 10000
+    # Add this if you want to be explicit about the file:
+    envVars:
+      - key: JSON_SERVER_FILE
+        value: jobs.json
