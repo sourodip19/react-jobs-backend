@@ -1,12 +1,10 @@
 {
-  "name": "json-server",
+  "name": "react-jobs-api",
   "version": "1.0.0",
-
   "scripts": {
-    "start": "json-server --watch jobs.json --port 10000 --no-cors --static false"
+    "start": "json-server --watch jobs.json --port 10000 --static false"
   },
-
   "dependencies": {
-    "json-server": "latest"
+    "json-server": "0.17.4"
   }
 }
